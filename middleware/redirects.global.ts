@@ -1,3 +1,3 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-  if (to.path === "/") return navigateTo("/dashboard/explorer");
+  if (to.path === "/") return navigateTo("/explorer");
 });
