@@ -1,0 +1,32 @@
+
+@import "./../theme/variables.scss";
+@import "./../theme/typography.scss";
+
+.logo{
+    color: $faint-weak-up !important;
+}
+
+.sidebar{
+    background-color: $sidedar;
+
+}
+
+.second_sidebar{
+    background-color: $secosidedar;
+}
+
+.sidebar_item{
+    padding: 6px, 8px, 6px, 8px !important;
+    color: $faint-weak-up;
+
+}
+
+.active-menu-link{
+    border-radius: 0.25rem !important;
+    color: $accent-strong-down !important;
+    padding: 6px, 8px, 6px, 8px !important;
+    background-color: $base-strong !important;
+}
+
+
+

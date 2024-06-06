@@ -1,0 +1,154 @@
+@import "variables.scss";
+
+html,
+body {
+  font-family: $font-family !important;
+  font-style: normal !important;
+  font-weight: normal!important; 
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0016em;
+  color: var($base-strong);
+}
+
+input,
+select,
+button {
+  color: var($base-strong);
+}
+
+input,
+select,
+button,
+a {
+  &:focus {
+    outline-color: var($complimentary-strong);
+  }
+}
+
+.caption {
+  font-family: $font-family !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0032em;
+}
+
+/* This is for explanatory helper text that appears below a field title within a component */
+.helper {
+  font-family: $font-family !important;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0032em;
+}
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.short-m {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/**
+ * This is commonly used in both the expressive and the productive type theme layouts for long paragraphs with more than four lines.
+ * It is a good size for comfortable, long-form reading. Use this for longer body copy in components such as accordion or structured list.
+ * always left-align this type; never center it.
+**/
+.long-m {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0016em;
+}
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.short-l {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* This is commonly used in both the expressive and the productive type theme layouts for long paragraphs with more than four lines. It is a good size for comfortable, long-form reading. Use this for longer body copy in components such as accordion or structured list. Always left-align this type; never center it. */
+.long-l {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* This is used for inputs label. */
+.label {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* This is for component and layout headings */
+.heading-06 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.heading-05 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.heading-04 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.heading-03 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.heading-02 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.heading-01 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.heading-01.unset-margins,
+.heading-02.unset-margins,
+.heading-03.unset-margins,
+.heading-04.unset-margins,
+.heading-05.unset-margins,
+.heading-06.unset-margins {
+  margin: 0;
+}

@@ -1,0 +1,41 @@
+// @import "_variables.scss";
+
+
+.layer_info_dialog{
+  left: 30px !important;
+  position: absolute !important;
+  z-index: 99999 !important;
+}
+
+.layer_info_title{
+  font-size: 1.625rem;
+  font-weight: bold;
+  margin: 0px 0px 0.1rem;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
+
+.layer_tab{
+  .q-tab__content{
+      .q-tab__label{
+          font-size: 16px !important;
+      }
+  }
+}
+
+.layer_info_card_image{
+  border-radius: 15px;
+}
+
+.layer_timeline{    
+  left: 40px;
+  bottom: 40px;
+  position: absolute
+}
+
+
+
+
+
+
+

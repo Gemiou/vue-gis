@@ -1,0 +1,76 @@
+@import "./../theme/variables.scss";
+@import "./../theme/typography.scss";
+
+.map_viewer {
+  height: 100vh;
+}
+.map_sidebar {
+  height: 100vh;
+  z-index: 888;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+.map_styles {
+  z-index: 888;
+  right: 70px;
+  bottom: 10px;
+  position: absolute;
+}
+.map_base_list {
+  z-index: 888;
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.map_layers_card_scroll {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.activeCom {
+  border-bottom: 1px solid white;
+}
+
+
+.search_btn_publisher{
+  position: absolute;
+  bottom: 0px;
+}
+
+.map_sidebar_tabs {
+  color: $white;
+  padding: 10px;
+  .q-tab__content {
+    .q-tab__label {
+      color: $white;
+      font-size: 10px !important;
+    }
+  }
+}
+
+.active_base_map_image {
+  border: 1px solid white;
+}
+
+/* width */
+.map_layers_card_scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.map_layers_card_scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.map_layers_card_scroll::-webkit-scrollbar-thumb {
+  background: $primary;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.map_layers_card_scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

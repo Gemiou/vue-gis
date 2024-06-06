@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  KEYCLOAK_CLIENT_ID: ds-app
+  KEYCLOAK_REALM: digital-transformation
+  KEYCLOAK_URL: https://keycloak.neuropublic.gr/
+  NUXT_APP_BASE_URL: /dashboard/
+  PORT: "3000"
+kind: ConfigMap
+metadata:
+  name: dashboard
+  namespace: ds-api

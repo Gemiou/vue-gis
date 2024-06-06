@@ -1,0 +1,64 @@
+@import "./../theme/variables.scss";
+@import "./../theme/typography.scss";
+
+.timeline{
+  z-index: 888 !important;
+  width: 800px;
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+}
+
+
+.timeline_card{
+
+  border-radius: 0.25rem !important;
+
+  box-shadow: rgba(50, 50, 50, 0.1) 0px 0.25rem 0.5rem !important;
+  transition: box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1) 0s !important;
+}
+
+.timeline_btn_player{
+  cursor: pointer !important;
+  line-height: 1.5 !important;
+  border-radius: 0.25rem!important;
+}
+
+.timeline_chip{
+
+  color: $white !important;
+  padding: 10px;
+}
+
+.timeline_scroll{
+ 
+  padding: 0px 30px 20px 30px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.timeline_scroll::-webkit-scrollbar {
+  background-color:$white;
+  width:16px;
+}
+
+/* background of the scrollbar except button or resizer */
+.timeline_scroll::-webkit-scrollbar-track {
+  background-color:$white;
+}
+
+
+/* scrollbar itself */
+.timeline_scroll::-webkit-scrollbar-thumb {
+  background-color:$primary;
+  border-radius:16px;
+  height: 50px !important;
+  border:5px solid $white;
+}
+.timeline_scroll::-webkit-scrollbar-thumb:hover {
+  background-color:$primary;
+ 
+}
+
+/* set button(top and bottom of the scrollbar) */
+.timeline_scroll::-webkit-scrollbar-button {display:none}
